@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (targetSection) {
                 const headerHeight = document.querySelector('.header').offsetHeight;
-                const targetPosition = targetSection.offsetTop - headerHeight - 20;
+                // Add more offset for mobile to account for smaller screens
+                const isMobile = window.innerWidth <= 768;
+                const extraOffset = isMobile ? 40 : 20;
+                const targetPosition = targetSection.offsetTop - headerHeight - extraOffset;
                 
                 window.scrollTo({
                     top: targetPosition,
