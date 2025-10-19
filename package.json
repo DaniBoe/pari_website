@@ -1,0 +1,23 @@
+{
+  "name": "pari-ludin-website",
+  "version": "1.0.0",
+  "description": "Personal website for Pari Ludin - Cultural Worker, Writer, Musician, Singer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build process needed for static site'",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "static",
+    "personal",
+    "cultural-worker"
+  ],
+  "author": "Pari Ludin",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
