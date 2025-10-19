@@ -483,49 +483,141 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav {
-        gap: 0.5rem;
-        padding: 0 1rem;
+        gap: 0.3rem;
+        padding: 0 0.5rem;
+        flex-wrap: wrap;
     }
     
     .nav-link {
-        font-size: 0.8rem;
-        padding: 0.6rem 0.8rem;
+        font-size: 0.7rem;
+        padding: 0.4rem 0.6rem;
+        flex: 1;
+        min-width: 0;
+        text-align: center;
+    }
+    
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+        min-height: 60vh;
     }
     
     .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 2rem;
+        margin-bottom: 2rem;
+        order: 2;
+    }
+    
+    .hero-image {
+        order: 1;
+        margin-bottom: 1rem;
     }
     
     .hero-name {
-        font-size: 3rem;
+        font-size: 4rem;
+        line-height: 0.9;
+        margin-bottom: 1rem;
     }
     
-    .about-content,
-    .contact-info {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .section-title {
-        font-size: 2rem;
+    .title {
+        font-size: 1.1rem;
+        line-height: 1.3;
     }
     
     .portrait {
         width: 250px;
-        height: 250px;
+        height: 350px;
+        max-width: 100%;
     }
     
-    .about-img,
-    .contact-img {
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .about-text {
+        order: 2;
+    }
+    
+    .about-image {
+        order: 1;
+    }
+    
+    .about-img {
+        width: 100%;
+        max-width: 300px;
         height: 300px;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .contact-details {
+        order: 2;
+    }
+    
+    .contact-image {
+        order: 1;
+    }
+    
+    .contact-img {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+        line-height: 0.9;
+        margin-bottom: 1.5rem;
+    }
+    
+    .project-title,
+    .workshop-title,
+    .writing-title,
+    .event-title {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+    
+    .project-description,
+    .workshop-description,
+    .writing-description,
+    .event-description {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    
+    .email-link,
+    .social-link {
+        font-size: 1.1rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .social-links img {
+        height: 2.5em !important;
     }
 }
 
 @media (max-width: 480px) {
+    .nav {
+        gap: 0.2rem;
+        padding: 0 0.3rem;
+    }
+    
+    .nav-link {
+        font-size: 0.6rem;
+        padding: 0.3rem 0.4rem;
+    }
+    
     .hero {
-        padding: 2rem 1rem;
+        padding: 1.5rem 0.5rem;
     }
     
     section {
@@ -533,19 +625,42 @@ section {
     }
     
     .hero-name {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .title {
         font-size: 1rem;
     }
     
-    .nav {
-        flex-direction: column;
-        gap: 0.5rem;
+    .portrait {
+        width: 200px;
+        height: 280px;
     }
     
-    .nav-link {
-        font-size: 0.7rem;
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .project-title,
+    .workshop-title,
+    .writing-title,
+    .event-title {
+        font-size: 1.1rem;
+    }
+    
+    .project-description,
+    .workshop-description,
+    .writing-description,
+    .event-description {
+        font-size: 1rem;
+    }
+    
+    .social-links img {
+        height: 2em !important;
+    }
+    
+    .about-img,
+    .contact-img {
+        height: 250px;
     }
 }
