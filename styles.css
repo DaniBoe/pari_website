@@ -5,17 +5,22 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #333;
+    overflow-x: hidden;
 }
 
 /* Color Variables */
 :root {
     --lavender: #E6E6FA;
     --yellow: #FFF8DC;
-    --dark-purple: #4A4A4A;
+    --dark-purple: #2D2D2D;
     --light-yellow: #FFFACD;
     --white: #FFFFFF;
 }
@@ -55,6 +60,7 @@ body {
     min-height: 80vh;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .hero-content {
