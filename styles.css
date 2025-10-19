@@ -178,7 +178,7 @@ section {
 }
 
 .about-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     color: #401804;
     font-weight: 400;
@@ -513,19 +513,20 @@ section {
     }
     
     .nav-link {
-        font-size: 0.45rem;
-        padding: 0.15rem 0.2rem;
+        font-size: 0.4rem;
+        padding: 0.1rem 0.15rem;
         flex: 1;
         min-width: 0;
         text-align: center;
         white-space: normal;
-        line-height: 1.0;
+        line-height: 0.9;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        hyphens: auto;
     }
     
     .hero {
@@ -636,6 +637,11 @@ section {
     .workshop-description,
     .writing-description,
     .event-description {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    
+    .about-text {
         font-size: 1.1rem;
         line-height: 1.4;
     }
