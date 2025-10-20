@@ -145,6 +145,10 @@ section {
     line-height: 1.1;
 }
 
+.desktop-text {
+    display: inline;
+}
+
 .mobile-break {
     display: none;
 }
@@ -637,6 +641,10 @@ section {
         word-wrap: break-word;
         overflow-wrap: break-word;
         white-space: normal;
+    }
+    
+    .desktop-text {
+        display: none;
     }
     
     .mobile-break {
