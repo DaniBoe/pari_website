@@ -178,8 +178,8 @@ section {
 }
 
 .about-text {
-    font-size: 1.2rem;
-    line-height: 1.4;
+    font-size: 1.5rem;
+    line-height: 1.375;
     color: #401804;
     font-weight: 400;
 }
@@ -642,8 +642,8 @@ section {
     }
     
     .about-text {
-        font-size: 1.1rem;
-        line-height: 1.4;
+        font-size: 1.2rem;
+        line-height: 1.375;
     }
     
     .email-link,
