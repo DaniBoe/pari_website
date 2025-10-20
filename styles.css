@@ -145,6 +145,10 @@ section {
     line-height: 1.1;
 }
 
+.mobile-break {
+    display: none;
+}
+
 /* About Section */
 .about {
     background-color: #fdfccb;
@@ -633,6 +637,10 @@ section {
         word-wrap: break-word;
         overflow-wrap: break-word;
         white-space: normal;
+    }
+    
+    .mobile-break {
+        display: inline;
     }
     
     .project-title,
