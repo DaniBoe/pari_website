@@ -200,12 +200,13 @@ section {
 
 .projects .section-title {
     color: #fdfccb;
-    font-size: 5.9rem;
+    font-size: 4.5rem;
     font-weight: 700;
     text-align: left;
     margin-bottom: 2rem;
     line-height: 0.9;
     letter-spacing: -0.05em;
+    white-space: nowrap;
 }
 
 .projects-content {
@@ -255,12 +256,13 @@ section {
 
 .facilitation .section-title {
     color: #5d17ea;
-    font-size: 5.9rem;
+    font-size: 4.5rem;
     font-weight: 700;
     text-align: left;
     margin-bottom: 2rem;
     line-height: 0.9;
     letter-spacing: -0.05em;
+    white-space: nowrap;
 }
 
 .facilitation-content {
@@ -517,13 +519,13 @@ section {
     }
     
     .nav-link {
-        font-size: 0.4rem;
-        padding: 0.1rem 0.15rem;
+        font-size: 0.35rem;
+        padding: 0.08rem 0.1rem;
         flex: 1;
         min-width: 0;
         text-align: center;
         white-space: normal;
-        line-height: 0.9;
+        line-height: 0.85;
         height: auto;
         display: flex;
         align-items: center;
@@ -531,6 +533,7 @@ section {
         word-wrap: break-word;
         overflow-wrap: break-word;
         hyphens: auto;
+        max-width: 100%;
     }
     
     .hero {
@@ -624,9 +627,11 @@ section {
     }
     
     .section-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 0.9;
         margin-bottom: 1.5rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .project-title,
