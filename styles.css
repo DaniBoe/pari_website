@@ -527,13 +527,14 @@ section {
     }
     
     .nav-link {
-        font-size: 0.35rem;
-        padding: 0.08rem 0.1rem;
+        font-size: 0.3rem;
+        padding: 0.05rem 0.08rem;
         flex: 1;
-        min-width: 0;
         text-align: center;
+        word-break: break-word;
+        line-height: 0.8;
+        min-width: 0;
         white-space: normal;
-        line-height: 0.85;
         height: auto;
         display: flex;
         align-items: center;
