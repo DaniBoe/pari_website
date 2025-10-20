@@ -160,13 +160,17 @@ section {
     letter-spacing: -0.05em;
 }
 
-.about-content {
+.about-wrapper {
     max-width: 1200px;
-    margin: 2rem auto 0;
+    margin: 0 auto;
+}
+
+.about-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 4rem;
     align-items: start;
+    margin-top: 2rem;
 }
 
 .about-img {
