@@ -627,18 +627,12 @@ section {
     }
     
     .section-title {
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 0.9;
         margin-bottom: 1.5rem;
         word-wrap: break-word;
         overflow-wrap: break-word;
         white-space: normal;
-    }
-    
-    .projects .section-title,
-    .facilitation .section-title {
-        font-size: 1.8rem;
-        line-height: 1.1;
     }
     
     .project-title,
