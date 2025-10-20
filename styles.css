@@ -635,12 +635,20 @@ section {
     }
     
     .section-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         line-height: 0.9;
         margin-bottom: 1.5rem;
         word-wrap: break-word;
         overflow-wrap: break-word;
         white-space: normal;
+    }
+    
+    .projects .section-title {
+        font-size: 2rem;
+    }
+    
+    .upcoming .section-title {
+        font-size: 2rem;
     }
     
     .desktop-text {
