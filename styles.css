@@ -190,7 +190,7 @@ section {
 }
 
 .about-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.375;
     color: #401804;
     font-weight: 400;
@@ -677,7 +677,7 @@ section {
     }
     
     .about-text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.375;
     }
     
@@ -743,6 +743,10 @@ section {
     .workshop-description,
     .writing-description,
     .event-description {
+        font-size: 1rem;
+    }
+    
+    .about-text {
         font-size: 1rem;
     }
     
